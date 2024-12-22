@@ -27,4 +27,4 @@ impl<T> Fixture<T> {
     }
 }
 
-pub use bench_test_macros::*;
+pub use dir_bench_macros::*;

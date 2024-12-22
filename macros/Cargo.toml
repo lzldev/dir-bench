@@ -1,5 +1,9 @@
 [package]
-name = "bench-test-macros"
+name = "dir-bench-macros"
+description = "proc macros for dir-bench"
+authors = ["Lucas Costa <francisco.lucas0507@gmail.com>"]
+repository = "https://github.com/lzldev/dir-bench"
+license = "MIT"
 version = "0.1.0"
 edition = "2024"
 

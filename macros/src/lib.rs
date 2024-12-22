@@ -9,7 +9,7 @@ use syn::Result;
 use syn::{Error, Token, parse::Parse};
 
 #[proc_macro_attribute]
-pub fn bench_test(args: TokenStream, item: TokenStream) -> TokenStream {
+pub fn dir_bench(args: TokenStream, item: TokenStream) -> TokenStream {
     let input = syn::parse_macro_input!(item as syn::ItemFn);
     let args = syn::parse_macro_input!(args as DirBenchArgs);
 

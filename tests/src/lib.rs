@@ -4,10 +4,10 @@
 mod benchs {
     extern crate test;
 
-    use dir_bench::{Fixture, bench_test};
+    use dir_bench::{Fixture, dir_bench};
     use test::Bencher;
 
-    #[bench_test(
+    #[dir_bench(
         dir: "$CARGO_MANIFEST_DIR/../fixtures/",
         glob: "**/*.txt"
         loader: std::fs::read_to_string
@@ -31,7 +31,7 @@ mod benchs {
         })
     }
 
-    #[bench_test(
+    #[dir_bench(
         dir: "$CARGO_MANIFEST_DIR/../fixtures/",
         glob: "**/*.txt"
     )]
