@@ -1,3 +1,4 @@
+#![feature(test)]
 pub struct Fixture<T> {
     content: T,
     path: &'static str,

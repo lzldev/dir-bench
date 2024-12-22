@@ -3,13 +3,6 @@
 version = 4
 
 [[package]]
-name = "bench-test"
-version = "0.1.0"
-dependencies = [
- "bench-test-macros",
-]
-
-[[package]]
 name = "bench-test-macros"
 version = "0.1.0"
 dependencies = [
@@ -17,6 +10,20 @@ dependencies = [
  "proc-macro2",
  "quote",
  "syn",
+]
+
+[[package]]
+name = "dir-bench"
+version = "0.1.0"
+dependencies = [
+ "bench-test-macros",
+]
+
+[[package]]
+name = "dir-bench-tests"
+version = "0.1.0"
+dependencies = [
+ "dir-bench",
 ]
 
 [[package]]

@@ -1,5 +1,5 @@
 [package]
-name = "bench-test"
+name = "dir-bench"
 version = "0.1.0"
 edition = "2024"
 

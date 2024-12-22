@@ -1,3 +1,3 @@
 [workspace]
-members = ["bench-test", "macros"]
+members = ["dir-bench", "macros", "tests"]
 resolver = "2"
