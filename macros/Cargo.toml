@@ -1,0 +1,13 @@
+[package]
+name = "bench-test-macros"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+glob = "0.3.1"
+proc-macro2 = "1.0.92"
+quote = "1.0.37"
+syn = "2.0.91"
