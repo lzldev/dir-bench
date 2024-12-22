@@ -1,7 +1,14 @@
 [package]
 name = "dir-bench"
+description = "dir-bench provides a macro to generating benchmarks from files in a directory"
+authors = ["Lucas Costa <francisco.lucas0507@gmail.com>"]
 version = "0.1.0"
+repository = "https://github.com/lzldev/dir-bench"
+keywords = ["test", "dir", "directory", "macro"]
+categories = ["development-tools", "filesystem"]
+readme = "README.md"
+license = "MIT"
 edition = "2024"
 
 [dependencies]
-bench-test-macros = { version = "*", path = "../macros" }
+bench-test-macros = { version = "0.1.0", path = "../macros" }
